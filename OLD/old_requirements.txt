@@ -1,0 +1,4 @@
+py-cord
+DateTime
+clean-text
+googletrans==3.1.0a0

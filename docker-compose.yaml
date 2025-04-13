@@ -1,0 +1,20 @@
+version: "3.8"
+services:
+#   mongo:
+#     image: mongo:7.0.9
+#     container_name: zorak_mongo_${ENVIRONMENT}
+#     env_file: .env
+#     volumes:
+#       - ./db:/data/db
+#     restart: always
+
+  refined:
+    build: .
+    image: refined:${TAG}
+    container_name: refined_bot_${ENVIRONMENT}
+    env_file: .env
+    # links:
+    #   - "mongo:mongo"
+    # depends_on:
+    #   - mongo
+    restart: always

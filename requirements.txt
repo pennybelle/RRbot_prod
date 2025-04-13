@@ -1,0 +1,6 @@
+DateTime
+toml
+clean-text
+better_profanity
+py-cord==2.5.0
+googletrans==3.1.0a0
